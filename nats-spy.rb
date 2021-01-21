@@ -5,8 +5,6 @@ class NatsSpy < Formula
    sha256 "78df43d600a5d83aef7778065403e392750164d475fce6fbf296d1f98c8d1621"
    version "v0.1"
 
-   bottle :unneeded
-
    def install
      bin.install "nats-spy"
    end
